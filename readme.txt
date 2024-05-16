@@ -31,3 +31,39 @@ add this line after "private"
 
 #commit and push again
 
+
+
+
+
+
+##########################################################
+
+fatal: detected dubious ownership in repository at 'C:/Users/91865/Documents/Nitesh/projects/vs code project/web-react'
+'C:/Users/91865/Documents/Nitesh/projects/vs code project/web-react/.git' is owned by:
+        BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+        DESKTOP-L1PJA6M/sumitvyz (S-1-5-21-2002555106-2911254780-3496387047-1001)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory 'C:/Users/91865/Documents/Nitesh/projects/vs code project/web-react'
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+This error typically occurs when there is a discrepancy between the owner of the .git directory and the current user. To resolve this issue, Git provides a mechanism to add an exception for the directory in question.
+
+
+>> git config --global --add safe.directory 'C:/Users/91865/Documents/Nitesh/projects/vs code project/web-react'
+
+
+
+This command adds an exception for the specified directory, allowing Git to proceed without encountering the ownership issue.
+
+After adding the exception, you should be able to use Git commands in the repository without further issues.
+
+
+##########################################################
+
+
+
+
+
