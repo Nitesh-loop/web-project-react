@@ -7,12 +7,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello world!!!  
-          This project is made by Nitesh
+          Hello Shsha...
         </p>
         <p>
           ...............................................................
-                                Hello Vaishali
+          "I just want to tell you, you've got this... 
+          You're capable of anything, and I believe in you."
           ...............................................................
         </p>
         
