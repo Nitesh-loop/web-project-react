@@ -10,9 +10,9 @@ function App() {
           Hello Prachi...
         </p>
         <p>
-          "I just want to tell you, you've got this... 
-          <p>You're capable of anything, and I believe in you." :)
-          </p>
+          "I just want to tell you, you've got this,
+          
+          <p> You're capable of anything, and I believe in you." :) </p>
         </p>
         
       </header>
