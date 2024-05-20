@@ -7,12 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello Prachi...
+          Hello Pranshu...
         </p>
         <p>
-          "I just want to tell you, you've got this,
-          
-          <p> You're capable of anything, and I believe in you." :) </p>
+          How are you?
         </p>
         
       </header>
